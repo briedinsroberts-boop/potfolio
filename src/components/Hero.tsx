@@ -25,12 +25,16 @@ export default function Hero() {
             pointerEvents: "none",
             backgroundColor: "black",
           }}
-          src="https://www.youtube.com/embed/7H1_TQkW0Y8?autoplay=1&mute=1&loop=1&controls=0&rel=0&showinfo=0&iv_load_policy=3&playlist=7H1_TQkW0Y8&playsinline=1"
-          title="Background Video"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowFullScreen
-        ></iframe>
+          >
+ <video 
+  autoPlay 
+  loop 
+  muted 
+  playsInline 
+  className="absolute inset-0 w-full h-full object-cover"
+>
+  <source src="/Fons.MOV" type="video/quicktime" />
+</video>
       </div>
 
       {/* Cinematic Overlays */}
