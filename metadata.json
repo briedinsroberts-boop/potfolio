@@ -1,0 +1,8 @@
+{
+  "name": "Roberts Briediņš Portfolio",
+  "description": "Premium, executive portfolio for Roberts Briediņš, Event Producer \u0026 Director.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
